@@ -80,7 +80,7 @@ All five channels (`AW`, `W`, `B`, `AR`, `R`) complete valid handshakes with sta
 ---
 
 ### 2️. Integration Test
-![Integration Transactions](waveforms/integration_write_read.png)
+![Integration Transactions](waveforms/integration_read_write.png)
 
 Shows the master and slave operating together across multiple transactions.  
 `AWVALID` and `WVALID` are decoupled correctly, responses are ordered, and memory read-back matches the written data.
@@ -88,7 +88,7 @@ Shows the master and slave operating together across multiple transactions.
 ---
 
 ### 3️. Comprehensive 45-Test Regression
-![Comprehensive 45-Test Suite](waveforms/comprehensive_45_tests.png)
+![Comprehensive 45-Test Suite](waveforms/comprehensive_tests.png)
 
 Demonstrates the self-checking testbench running 45 directed tests.  
 All tests pass, confirming protocol compliance and data integrity across all scenarios.
