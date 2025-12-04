@@ -93,12 +93,12 @@ All tests pass, confirming protocol compliance and data integrity across all sce
 
 From the `sim/` directory in ModelSim:
 
-tcl
-vlog ../rtl/*.v ../tb/*.v
-vsim work.axi_integration_tb
-do wave.do
-run -all
-The wave.do script loads all relevant signals and color-codes each AXI channel for clarity.
+- tcl
+- vlog ../rtl/*.v ../tb/*.v
+- vsim work.axi_integration_tb
+- do wave.do
+- run -all
+- The wave.do script loads all relevant signals and color-codes each AXI channel for clarity.
 
 ---
 
