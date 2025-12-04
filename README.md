@@ -11,10 +11,7 @@ rtl/ → AXI4-Lite Master & Slave source files
 tb/ → Unit, Integration, and Regression Testbenches
 sim/ → ModelSim simulation scripts (.do files)
 waveforms/ → Verified waveform screenshots
-docs/ → AXI4-Lite protocol explanation and design notes
-
-markdown
-Copy code
+docs/ → AXI4-Lite protocol explanation
 
 Each folder serves a specific purpose so that anyone opening the repo can easily trace the full design and verification flow.
 
