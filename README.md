@@ -3,19 +3,19 @@
 This repository contains a **complete RTL design and verification** of an AMBA **AXI4-Lite master–slave subsystem** written in **Verilog HDL** and verified using **ModelSim**.  
 The project focuses on designing independent FSMs for the master and slave, implementing the AXI4-Lite protocol accurately, and proving correct operation through simulation waveforms and a 45-test regression suite.
 
-'''
+---
 
 ## Repository Overview
 
-rtl/ → AXI4-Lite Master & Slave source files
-tb/ → Unit, Integration, and Regression Testbenches
-sim/ → ModelSim simulation scripts (.do files)
-waveforms/ → Verified waveform screenshots
-docs/ → AXI4-Lite protocol explanation
+- rtl/ - AXI4-Lite Master & Slave source files
+- tb/ - Unit, Integration, and Regression Testbenches
+- sim/ - ModelSim simulation scripts (.do files)
+- waveforms/ - Verified waveform screenshots
+- docs/ - AXI4-Lite protocol explanation
 
 Each folder serves a specific purpose so that anyone opening the repo can easily trace the full design and verification flow.
 
-'''
+---
 
 ## Project Summary
 
