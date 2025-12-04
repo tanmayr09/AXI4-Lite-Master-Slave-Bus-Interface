@@ -61,9 +61,6 @@ TOTAL TESTS = 45
 PASS COUNT = 45
 FAIL COUNT = 0
 
-yaml
-Copy code
-
 ---
 
 ## Protocol Waveform Proof
@@ -96,19 +93,23 @@ All tests pass, confirming protocol compliance and data integrity across all sce
 
 From the `sim/` directory in ModelSim:
 
-```tcl
+tcl
 vlog ../rtl/*.v ../tb/*.v
 vsim work.axi_integration_tb
 do wave.do
 run -all
 The wave.do script loads all relevant signals and color-codes each AXI channel for clarity.
 
-Documentation
+---
+
+## Documentation
 For a detailed explanation of the AXI4-Lite protocol and this project’s architecture, refer to:
 
 docs/axi4_lite_overview.md
 
 It covers channel behavior, handshake timing, FSM design, and verification methodology.
+
+---
 
 ## AXI Write and Read Transactions
 
@@ -124,8 +125,6 @@ This waveform illustrates a **single AXI4-Lite write transaction**:
 
 This verifies correct operation of the **write address, data, and response channels**.
 
----
-
 ### AXI Read Transaction
 ![AXI Read Transaction](docs/AXI4 Read Transaction.png)
 
@@ -138,8 +137,9 @@ This waveform shows a **single AXI4-Lite read transaction**:
 
 These waveforms demonstrate correct VALID/READY handshaking, channel decoupling, and complete AXI4-Lite compliance.
 
+---
 
-Key Learning Outcomes
+## Key Learning Outcomes
 Strong understanding of the AXI4-Lite protocol
 
 Experience designing independent FSMs for interface logic
@@ -148,12 +148,16 @@ Verification methodology using self-checking testbenches
 
 Hands-on exposure to ModelSim scripting and waveform debugging
 
-Industry-style documentation and version control with Git/GitHub
+---
 
-Author
+## Final Note
+This project was built from the ground up — starting with protocol understanding, followed by RTL design, and ending with complete functional verification.
+All waveforms and documentation are original, and the repository is organized to reflect real-world VLSI design and verification workflows.
+
+---
+
+## Author
 Tanmay Rambha
 Final-Year ECE | RTL Design & Verification
 
-Final Note
-This project was built from the ground up — starting with protocol understanding, followed by RTL design, and ending with complete functional verification.
-All waveforms and documentation are original, and the repository is organized to reflect real-world VLSI design and verification workflows.
+---
