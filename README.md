@@ -114,7 +114,7 @@ It covers channel behavior, handshake timing, FSM design, and verification metho
 ## AXI Write and Read Transactions
 
 ### AXI Write Transaction
-![AXI Write Transaction](AXI4_Write_Transaction.png)
+![AXI Write Transaction](https://github.com/tanmayr09/AXI4-Lite-Master-Slave-Bus-Interface/blob/main/docs/AXI4_Write_Transaction.png?raw=true)
 
 This waveform illustrates a **single AXI4-Lite write transaction**:
 - The master asserts `AWVALID` with a valid address.
@@ -126,7 +126,7 @@ This waveform illustrates a **single AXI4-Lite write transaction**:
 This verifies correct operation of the **write address, data, and response channels**.
 
 ### AXI Read Transaction
-![AXI Read Transaction](AXI4_Read_Transaction.png)
+![AXI Read Transaction](https://github.com/tanmayr09/AXI4-Lite-Master-Slave-Bus-Interface/blob/main/docs/AXI4_Read_Transaction.png?raw=true)
 
 This waveform shows a **single AXI4-Lite read transaction**:
 - The master initiates the read by asserting `ARVALID` with a valid address.
